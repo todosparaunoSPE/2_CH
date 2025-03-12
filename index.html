@@ -1,0 +1,2609 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_855e0f69dbad0a80ed247c98a08e2745 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_855e0f69dbad0a80ed247c98a08e2745" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_855e0f69dbad0a80ed247c98a08e2745 = L.map(
+                "map_855e0f69dbad0a80ed247c98a08e2745",
+                {
+                    center: [32.41259949342857, -116.48360849714287],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7c972d8bed8a55bb9529e44ba474280e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7c972d8bed8a55bb9529e44ba474280e.addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var marker_10267aa32e284a8488116d0381ddd6dc = L.marker(
+                [31.8667427, -116.5963713],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_ad392c5caca0444185b208a30dcb1de3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10267aa32e284a8488116d0381ddd6dc.setIcon(icon_ad392c5caca0444185b208a30dcb1de3);
+        
+    
+        var popup_8067abcc2d7f85828a66a6fabc66b33d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9053e0f3ba2aa1a2d14d6c007a86514b = $(`<div id="html_9053e0f3ba2aa1a2d14d6c007a86514b" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Baja California</div>`)[0];
+                popup_8067abcc2d7f85828a66a6fabc66b33d.setContent(html_9053e0f3ba2aa1a2d14d6c007a86514b);
+            
+        
+
+        marker_10267aa32e284a8488116d0381ddd6dc.bindPopup(popup_8067abcc2d7f85828a66a6fabc66b33d)
+        ;
+
+        
+    
+    
+            var marker_5c4e6eb78fb2b3c524d92968a784933a = L.marker(
+                [32.6641333, -115.4585475],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_b0ab5c29d519bf20eeeab635153f67fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5c4e6eb78fb2b3c524d92968a784933a.setIcon(icon_b0ab5c29d519bf20eeeab635153f67fc);
+        
+    
+        var popup_978f0b49a648b64a290b2585fd7c0066 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21aec017402db5da917046290e24210d = $(`<div id="html_21aec017402db5da917046290e24210d" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Baja California</div>`)[0];
+                popup_978f0b49a648b64a290b2585fd7c0066.setContent(html_21aec017402db5da917046290e24210d);
+            
+        
+
+        marker_5c4e6eb78fb2b3c524d92968a784933a.bindPopup(popup_978f0b49a648b64a290b2585fd7c0066)
+        ;
+
+        
+    
+    
+            var marker_e02fdf473c6ad37c4d56679496a51e0e = L.marker(
+                [32.5221457, -117.009542],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_2e7a86cacf663c140bcd792322145ae3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e02fdf473c6ad37c4d56679496a51e0e.setIcon(icon_2e7a86cacf663c140bcd792322145ae3);
+        
+    
+        var popup_1c3956d2be390c7fd0665a65cf971f6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b25658d082a7447f005ebaf902071290 = $(`<div id="html_b25658d082a7447f005ebaf902071290" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Baja California</div>`)[0];
+                popup_1c3956d2be390c7fd0665a65cf971f6a.setContent(html_b25658d082a7447f005ebaf902071290);
+            
+        
+
+        marker_e02fdf473c6ad37c4d56679496a51e0e.bindPopup(popup_1c3956d2be390c7fd0665a65cf971f6a)
+        ;
+
+        
+    
+    
+            var marker_f1fa980539a16ec261e396358a93479d = L.marker(
+                [31.8503274, -116.6091546],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_258fa3fc84d559e789cc4aa428fee90a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f1fa980539a16ec261e396358a93479d.setIcon(icon_258fa3fc84d559e789cc4aa428fee90a);
+        
+    
+        var popup_487b2288adc19144d11da2947a2c3085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6498d06c258eaa5ae2039aefd562a5fa = $(`<div id="html_6498d06c258eaa5ae2039aefd562a5fa" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Baja California</div>`)[0];
+                popup_487b2288adc19144d11da2947a2c3085.setContent(html_6498d06c258eaa5ae2039aefd562a5fa);
+            
+        
+
+        marker_f1fa980539a16ec261e396358a93479d.bindPopup(popup_487b2288adc19144d11da2947a2c3085)
+        ;
+
+        
+    
+    
+            var marker_b8f67dc333515bcd6bbae8a2f1ebd7f3 = L.marker(
+                [31.8627709, -116.6115453],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_c95d5c1b4bb3db4b51744fdbe626cbdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8f67dc333515bcd6bbae8a2f1ebd7f3.setIcon(icon_c95d5c1b4bb3db4b51744fdbe626cbdc);
+        
+    
+        var popup_d9d48013e73bb7046b59b83c3d1a5bc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0d92afbaa4b9aa7265a950a056535c5 = $(`<div id="html_e0d92afbaa4b9aa7265a950a056535c5" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_d9d48013e73bb7046b59b83c3d1a5bc0.setContent(html_e0d92afbaa4b9aa7265a950a056535c5);
+            
+        
+
+        marker_b8f67dc333515bcd6bbae8a2f1ebd7f3.bindPopup(popup_d9d48013e73bb7046b59b83c3d1a5bc0)
+        ;
+
+        
+    
+    
+            var marker_277acb431a6c293c19270016e071c9a9 = L.marker(
+                [32.6585858, -115.453037],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_04acab4342f1dcdc317a6d13a57574bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_277acb431a6c293c19270016e071c9a9.setIcon(icon_04acab4342f1dcdc317a6d13a57574bc);
+        
+    
+        var popup_6b0df598a757f5e11a3bdfa6c088a78a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d75b3215bf0c3de82cc0c162369f6b23 = $(`<div id="html_d75b3215bf0c3de82cc0c162369f6b23" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_6b0df598a757f5e11a3bdfa6c088a78a.setContent(html_d75b3215bf0c3de82cc0c162369f6b23);
+            
+        
+
+        marker_277acb431a6c293c19270016e071c9a9.bindPopup(popup_6b0df598a757f5e11a3bdfa6c088a78a)
+        ;
+
+        
+    
+    
+            var marker_1dae5c9fc64f1f81d83bd766f3fcc8d1 = L.marker(
+                [32.6108076, -115.3860381],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_3738f2ddc6defb6b41281aeb504d97d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1dae5c9fc64f1f81d83bd766f3fcc8d1.setIcon(icon_3738f2ddc6defb6b41281aeb504d97d7);
+        
+    
+        var popup_bd015dc772e273720fc3279e639ffa3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce0def67e8d36452fb114e30985087a4 = $(`<div id="html_ce0def67e8d36452fb114e30985087a4" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_bd015dc772e273720fc3279e639ffa3a.setContent(html_ce0def67e8d36452fb114e30985087a4);
+            
+        
+
+        marker_1dae5c9fc64f1f81d83bd766f3fcc8d1.bindPopup(popup_bd015dc772e273720fc3279e639ffa3a)
+        ;
+
+        
+    
+    
+            var marker_1f37b6b473329f7bde2976faca01cf4b = L.marker(
+                [32.5754125, -116.6206957],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_c0696d9793415c1296192ba1e1123aed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f37b6b473329f7bde2976faca01cf4b.setIcon(icon_c0696d9793415c1296192ba1e1123aed);
+        
+    
+        var popup_1af41bcaf0fb6cabe997b60bfd60e39e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3b4c943c7bbe395b91d88bfc654d642 = $(`<div id="html_c3b4c943c7bbe395b91d88bfc654d642" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_1af41bcaf0fb6cabe997b60bfd60e39e.setContent(html_c3b4c943c7bbe395b91d88bfc654d642);
+            
+        
+
+        marker_1f37b6b473329f7bde2976faca01cf4b.bindPopup(popup_1af41bcaf0fb6cabe997b60bfd60e39e)
+        ;
+
+        
+    
+    
+            var marker_9d61e112497f270e6482cbe5a68ca03b = L.marker(
+                [32.519333, -117.0123902],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_7fcf657e1a2338013a0efa09a087fbda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d61e112497f270e6482cbe5a68ca03b.setIcon(icon_7fcf657e1a2338013a0efa09a087fbda);
+        
+    
+        var popup_33fa5dd09d9e8b71b200af024b2fa70b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a846df7cfe71d9d7491cc8e24f732bd = $(`<div id="html_1a846df7cfe71d9d7491cc8e24f732bd" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_33fa5dd09d9e8b71b200af024b2fa70b.setContent(html_1a846df7cfe71d9d7491cc8e24f732bd);
+            
+        
+
+        marker_9d61e112497f270e6482cbe5a68ca03b.bindPopup(popup_33fa5dd09d9e8b71b200af024b2fa70b)
+        ;
+
+        
+    
+    
+            var marker_b62708ab8b5caf9d6ced830dd0e4d2a0 = L.marker(
+                [32.4951305, -116.9584443],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_ded209ce787355afafad644d32bcabda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b62708ab8b5caf9d6ced830dd0e4d2a0.setIcon(icon_ded209ce787355afafad644d32bcabda);
+        
+    
+        var popup_4f6463d18aec457d62dd6576036dc7d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be310f845f3beba705f1c8e05bde9b3c = $(`<div id="html_be310f845f3beba705f1c8e05bde9b3c" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_4f6463d18aec457d62dd6576036dc7d3.setContent(html_be310f845f3beba705f1c8e05bde9b3c);
+            
+        
+
+        marker_b62708ab8b5caf9d6ced830dd0e4d2a0.bindPopup(popup_4f6463d18aec457d62dd6576036dc7d3)
+        ;
+
+        
+    
+    
+            var marker_c00c7ef9a6b204ab82b91ff6406555da = L.marker(
+                [32.5315181, -116.9271031],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_3d1fe72ebeb9ebce77646f361cb982fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c00c7ef9a6b204ab82b91ff6406555da.setIcon(icon_3d1fe72ebeb9ebce77646f361cb982fb);
+        
+    
+        var popup_3783869b2defff133f69a9b41ea296ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb5682b06083a461c84b7aa919351da0 = $(`<div id="html_bb5682b06083a461c84b7aa919351da0" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Baja California</div>`)[0];
+                popup_3783869b2defff133f69a9b41ea296ae.setContent(html_bb5682b06083a461c84b7aa919351da0);
+            
+        
+
+        marker_c00c7ef9a6b204ab82b91ff6406555da.bindPopup(popup_3783869b2defff133f69a9b41ea296ae)
+        ;
+
+        
+    
+    
+            var marker_d4be0f4445597e780e61c1f6db0200c0 = L.marker(
+                [32.494921, -116.935152],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_4f41bfdd6594fa4955c3fe88a8b3b7e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d4be0f4445597e780e61c1f6db0200c0.setIcon(icon_4f41bfdd6594fa4955c3fe88a8b3b7e2);
+        
+    
+        var popup_85f97696ef30938ea0ec1a51e13c9729 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5f00dbfc45f36b3ed3aa8b1356cf911 = $(`<div id="html_e5f00dbfc45f36b3ed3aa8b1356cf911" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Baja California</div>`)[0];
+                popup_85f97696ef30938ea0ec1a51e13c9729.setContent(html_e5f00dbfc45f36b3ed3aa8b1356cf911);
+            
+        
+
+        marker_d4be0f4445597e780e61c1f6db0200c0.bindPopup(popup_85f97696ef30938ea0ec1a51e13c9729)
+        ;
+
+        
+    
+    
+            var marker_b59226bba4d1adce482236be1afaf075 = L.marker(
+                [32.641806, -115.452342],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_4f35252c6e5562991674aef4baa3a5b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b59226bba4d1adce482236be1afaf075.setIcon(icon_4f35252c6e5562991674aef4baa3a5b0);
+        
+    
+        var popup_e896c6bd83ceb05ef844a8bcb87dec43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6b71d2edd6092d2794a417770dd209f = $(`<div id="html_a6b71d2edd6092d2794a417770dd209f" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Baja California</div>`)[0];
+                popup_e896c6bd83ceb05ef844a8bcb87dec43.setContent(html_a6b71d2edd6092d2794a417770dd209f);
+            
+        
+
+        marker_b59226bba4d1adce482236be1afaf075.bindPopup(popup_e896c6bd83ceb05ef844a8bcb87dec43)
+        ;
+
+        
+    
+    
+            var marker_79305ca1b1ee0f65f961091c9b328849 = L.marker(
+                [32.6612234, -115.4877059],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_f3e0a921986101082212e46331a15015 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79305ca1b1ee0f65f961091c9b328849.setIcon(icon_f3e0a921986101082212e46331a15015);
+        
+    
+        var popup_555096fe291d6e1dff55bcef01c9cb2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c1b961c787390379cb3edb865a82ce3 = $(`<div id="html_6c1b961c787390379cb3edb865a82ce3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_555096fe291d6e1dff55bcef01c9cb2f.setContent(html_6c1b961c787390379cb3edb865a82ce3);
+            
+        
+
+        marker_79305ca1b1ee0f65f961091c9b328849.bindPopup(popup_555096fe291d6e1dff55bcef01c9cb2f)
+        ;
+
+        
+    
+    
+            var marker_0cb6d2eba80058938b1f200935cfa58d = L.marker(
+                [32.6596123, -115.4844484],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_56c31a0dd4614e02fb3693258c07ed61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cb6d2eba80058938b1f200935cfa58d.setIcon(icon_56c31a0dd4614e02fb3693258c07ed61);
+        
+    
+        var popup_e375804dc2ddbf0f1c271076a0b94b32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eda846a22309c80d056723f57fac265a = $(`<div id="html_eda846a22309c80d056723f57fac265a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_e375804dc2ddbf0f1c271076a0b94b32.setContent(html_eda846a22309c80d056723f57fac265a);
+            
+        
+
+        marker_0cb6d2eba80058938b1f200935cfa58d.bindPopup(popup_e375804dc2ddbf0f1c271076a0b94b32)
+        ;
+
+        
+    
+    
+            var marker_d88a5c391688fbfabcd613f29b441bc5 = L.marker(
+                [32.5347593, -117.0380779],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_920c7bf90ad9e70cc72568548bd96d49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d88a5c391688fbfabcd613f29b441bc5.setIcon(icon_920c7bf90ad9e70cc72568548bd96d49);
+        
+    
+        var popup_9417307c21f4700687ac57790f99cf83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72b2412c98fe385fdeb3d2d1e4a075c3 = $(`<div id="html_72b2412c98fe385fdeb3d2d1e4a075c3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_9417307c21f4700687ac57790f99cf83.setContent(html_72b2412c98fe385fdeb3d2d1e4a075c3);
+            
+        
+
+        marker_d88a5c391688fbfabcd613f29b441bc5.bindPopup(popup_9417307c21f4700687ac57790f99cf83)
+        ;
+
+        
+    
+    
+            var marker_14d47510475136c38575d9ea90cf1b7c = L.marker(
+                [32.5018677, -116.9640801],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_437f18564f145018ddc8d2908d5b8ce3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14d47510475136c38575d9ea90cf1b7c.setIcon(icon_437f18564f145018ddc8d2908d5b8ce3);
+        
+    
+        var popup_3d6b30d51c3613a8eae3a3e47d3b6188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9333dcac3d0a4e4bf5c4255081d3a05 = $(`<div id="html_f9333dcac3d0a4e4bf5c4255081d3a05" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_3d6b30d51c3613a8eae3a3e47d3b6188.setContent(html_f9333dcac3d0a4e4bf5c4255081d3a05);
+            
+        
+
+        marker_14d47510475136c38575d9ea90cf1b7c.bindPopup(popup_3d6b30d51c3613a8eae3a3e47d3b6188)
+        ;
+
+        
+    
+    
+            var marker_444cd62ab519c0d2d6d5947fb548d3b4 = L.marker(
+                [30.8406338, -115.2837585],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_d72bcc5ca5fc42bae60041ec1fd3b518 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_444cd62ab519c0d2d6d5947fb548d3b4.setIcon(icon_d72bcc5ca5fc42bae60041ec1fd3b518);
+        
+    
+        var popup_ee162fa7136ea0b0936c36e2548a6eba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54babff15d42f89dcb6a5eb484a5aa5f = $(`<div id="html_54babff15d42f89dcb6a5eb484a5aa5f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_ee162fa7136ea0b0936c36e2548a6eba.setContent(html_54babff15d42f89dcb6a5eb484a5aa5f);
+            
+        
+
+        marker_444cd62ab519c0d2d6d5947fb548d3b4.bindPopup(popup_ee162fa7136ea0b0936c36e2548a6eba)
+        ;
+
+        
+    
+    
+            var marker_63b8965164d7a740e3403881ac06851f = L.marker(
+                [32.6165643, -115.5014884],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_f9c297d0905f266de6cee9e8b903cf25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63b8965164d7a740e3403881ac06851f.setIcon(icon_f9c297d0905f266de6cee9e8b903cf25);
+        
+    
+        var popup_ca7d98717b18d1f066bd3866ad16f766 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a17b42b993a62fb9dd8694c106cdd403 = $(`<div id="html_a17b42b993a62fb9dd8694c106cdd403" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_ca7d98717b18d1f066bd3866ad16f766.setContent(html_a17b42b993a62fb9dd8694c106cdd403);
+            
+        
+
+        marker_63b8965164d7a740e3403881ac06851f.bindPopup(popup_ca7d98717b18d1f066bd3866ad16f766)
+        ;
+
+        
+    
+    
+            var marker_7c8d64956ecadf61677c05f982e0a78e = L.marker(
+                [32.4945704, -116.9545188],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_0818bb62703578ec44709c237c464d3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7c8d64956ecadf61677c05f982e0a78e.setIcon(icon_0818bb62703578ec44709c237c464d3d);
+        
+    
+        var popup_46428408cf2d65e967414256c3dccb60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_554db984480121130f8f0e557f05a422 = $(`<div id="html_554db984480121130f8f0e557f05a422" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_46428408cf2d65e967414256c3dccb60.setContent(html_554db984480121130f8f0e557f05a422);
+            
+        
+
+        marker_7c8d64956ecadf61677c05f982e0a78e.bindPopup(popup_46428408cf2d65e967414256c3dccb60)
+        ;
+
+        
+    
+    
+            var marker_8f18bba4fe15cf3ea566b35dc93ef177 = L.marker(
+                [32.5134098, -116.8685856],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_51aad73004d5802858e0d152f7f8927c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8f18bba4fe15cf3ea566b35dc93ef177.setIcon(icon_51aad73004d5802858e0d152f7f8927c);
+        
+    
+        var popup_6fb91473fdc91790efa24f0d1dc0b068 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_109c61d88356d4706ea10a3e047ecf09 = $(`<div id="html_109c61d88356d4706ea10a3e047ecf09" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_6fb91473fdc91790efa24f0d1dc0b068.setContent(html_109c61d88356d4706ea10a3e047ecf09);
+            
+        
+
+        marker_8f18bba4fe15cf3ea566b35dc93ef177.bindPopup(popup_6fb91473fdc91790efa24f0d1dc0b068)
+        ;
+
+        
+    
+    
+            var marker_bd854cbd5f7838c8d68600686e57a5b9 = L.marker(
+                [32.5173383, -116.9256341],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_dcd7f60d9ee71a4b68c63e6c9724cc69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd854cbd5f7838c8d68600686e57a5b9.setIcon(icon_dcd7f60d9ee71a4b68c63e6c9724cc69);
+        
+    
+        var popup_1a6abea943f2bd1cb11e8a24a728b5df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_291c8a09df0fdfdc7f0cc08185fad0ba = $(`<div id="html_291c8a09df0fdfdc7f0cc08185fad0ba" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_1a6abea943f2bd1cb11e8a24a728b5df.setContent(html_291c8a09df0fdfdc7f0cc08185fad0ba);
+            
+        
+
+        marker_bd854cbd5f7838c8d68600686e57a5b9.bindPopup(popup_1a6abea943f2bd1cb11e8a24a728b5df)
+        ;
+
+        
+    
+    
+            var marker_a5d566c39c6e0f6d6ad9031194405ff3 = L.marker(
+                [32.4984986, -116.8892549],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_2889705f51321d112784ba9add3e76c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a5d566c39c6e0f6d6ad9031194405ff3.setIcon(icon_2889705f51321d112784ba9add3e76c2);
+        
+    
+        var popup_f45d98b80c693431d3701a296c5ed422 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36c60d84cd740398e0b800a44c308ad6 = $(`<div id="html_36c60d84cd740398e0b800a44c308ad6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_f45d98b80c693431d3701a296c5ed422.setContent(html_36c60d84cd740398e0b800a44c308ad6);
+            
+        
+
+        marker_a5d566c39c6e0f6d6ad9031194405ff3.bindPopup(popup_f45d98b80c693431d3701a296c5ed422)
+        ;
+
+        
+    
+    
+            var marker_80578a8f74c3c74d4e1d6400e5aa0dba = L.marker(
+                [32.610571, -115.3858622],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_e03611af98c3b4fd066ebccde474a1f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80578a8f74c3c74d4e1d6400e5aa0dba.setIcon(icon_e03611af98c3b4fd066ebccde474a1f1);
+        
+    
+        var popup_141c137c55058346d39214d6b4c725a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2186ed363bd3d2de8e5db0b54c86d65c = $(`<div id="html_2186ed363bd3d2de8e5db0b54c86d65c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_141c137c55058346d39214d6b4c725a1.setContent(html_2186ed363bd3d2de8e5db0b54c86d65c);
+            
+        
+
+        marker_80578a8f74c3c74d4e1d6400e5aa0dba.bindPopup(popup_141c137c55058346d39214d6b4c725a1)
+        ;
+
+        
+    
+    
+            var marker_ecc7a3a83bcc49efd5ce9b8b043a499e = L.marker(
+                [32.5322795, -117.0385376],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_fbd158fb7c8223a44fed23ab2356d13e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ecc7a3a83bcc49efd5ce9b8b043a499e.setIcon(icon_fbd158fb7c8223a44fed23ab2356d13e);
+        
+    
+        var popup_ddc139812e4fc4790a0a27218c687829 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d88c1aea44b90c698e1e1f653b081a0 = $(`<div id="html_2d88c1aea44b90c698e1e1f653b081a0" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_ddc139812e4fc4790a0a27218c687829.setContent(html_2d88c1aea44b90c698e1e1f653b081a0);
+            
+        
+
+        marker_ecc7a3a83bcc49efd5ce9b8b043a499e.bindPopup(popup_ddc139812e4fc4790a0a27218c687829)
+        ;
+
+        
+    
+    
+            var marker_bffad59b6f33af1fbd5d559a4404868f = L.marker(
+                [32.535236, -116.9327924],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_e82b6e46f46edf43d459b20bd6d61034 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bffad59b6f33af1fbd5d559a4404868f.setIcon(icon_e82b6e46f46edf43d459b20bd6d61034);
+        
+    
+        var popup_2ae28624984fa007faf451bc3ec51095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36957249f58a0021618b957f61524077 = $(`<div id="html_36957249f58a0021618b957f61524077" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_2ae28624984fa007faf451bc3ec51095.setContent(html_36957249f58a0021618b957f61524077);
+            
+        
+
+        marker_bffad59b6f33af1fbd5d559a4404868f.bindPopup(popup_2ae28624984fa007faf451bc3ec51095)
+        ;
+
+        
+    
+    
+            var marker_1eb144b5816406be4fb2a51020312dc1 = L.marker(
+                [32.4771815, -116.9703412],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_2a5106f3720e9cee8cc79e41fe54feca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1eb144b5816406be4fb2a51020312dc1.setIcon(icon_2a5106f3720e9cee8cc79e41fe54feca);
+        
+    
+        var popup_c4a3ae5c0e02682b8eecd41d0c7243b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa100a086377c3c29d36e3af1aa467c = $(`<div id="html_8fa100a086377c3c29d36e3af1aa467c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_c4a3ae5c0e02682b8eecd41d0c7243b2.setContent(html_8fa100a086377c3c29d36e3af1aa467c);
+            
+        
+
+        marker_1eb144b5816406be4fb2a51020312dc1.bindPopup(popup_c4a3ae5c0e02682b8eecd41d0c7243b2)
+        ;
+
+        
+    
+    
+            var marker_a65057ad4b3d5131dc555a10abab446d = L.marker(
+                [32.3691631, -117.0618361],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_0cbd837407997951e287a7e4e67a460f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a65057ad4b3d5131dc555a10abab446d.setIcon(icon_0cbd837407997951e287a7e4e67a460f);
+        
+    
+        var popup_665026ab00b6dc8a9e6ada171fa21273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c84f1ceab08c9f437b32874086b40913 = $(`<div id="html_c84f1ceab08c9f437b32874086b40913" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_665026ab00b6dc8a9e6ada171fa21273.setContent(html_c84f1ceab08c9f437b32874086b40913);
+            
+        
+
+        marker_a65057ad4b3d5131dc555a10abab446d.bindPopup(popup_665026ab00b6dc8a9e6ada171fa21273)
+        ;
+
+        
+    
+    
+            var marker_dd5bbeb271d457461b5c77bf3013eb39 = L.marker(
+                [31.8144228, -116.5963731],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_71f2b253f3781b19768c66ac6763c867 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd5bbeb271d457461b5c77bf3013eb39.setIcon(icon_71f2b253f3781b19768c66ac6763c867);
+        
+    
+        var popup_5653b973cb9da705d998e30f7b86e096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fd0d5a3fde64284af2aedcd3d663684 = $(`<div id="html_4fd0d5a3fde64284af2aedcd3d663684" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_5653b973cb9da705d998e30f7b86e096.setContent(html_4fd0d5a3fde64284af2aedcd3d663684);
+            
+        
+
+        marker_dd5bbeb271d457461b5c77bf3013eb39.bindPopup(popup_5653b973cb9da705d998e30f7b86e096)
+        ;
+
+        
+    
+    
+            var marker_88e34c1b14a5d02e8ec687efaf5b483c = L.marker(
+                [32.6478699, -115.5325106],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_62e7575ee3d0216b3bf7b08dc2bb7477 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_88e34c1b14a5d02e8ec687efaf5b483c.setIcon(icon_62e7575ee3d0216b3bf7b08dc2bb7477);
+        
+    
+        var popup_c73a79176458db17b651b1c9b92b89cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32838be3962c76c1defd5d85390e3183 = $(`<div id="html_32838be3962c76c1defd5d85390e3183" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_c73a79176458db17b651b1c9b92b89cf.setContent(html_32838be3962c76c1defd5d85390e3183);
+            
+        
+
+        marker_88e34c1b14a5d02e8ec687efaf5b483c.bindPopup(popup_c73a79176458db17b651b1c9b92b89cf)
+        ;
+
+        
+    
+    
+            var marker_ba5929c20724a59ef7f0dda4082d8716 = L.marker(
+                [32.5866807, -115.4044923],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_4fcb35244fbff099d655f258efe65f3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba5929c20724a59ef7f0dda4082d8716.setIcon(icon_4fcb35244fbff099d655f258efe65f3f);
+        
+    
+        var popup_c581368f74773be0ebd92c4f98e093a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_929b3f33236cc44f376db99e4f8f7a24 = $(`<div id="html_929b3f33236cc44f376db99e4f8f7a24" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_c581368f74773be0ebd92c4f98e093a7.setContent(html_929b3f33236cc44f376db99e4f8f7a24);
+            
+        
+
+        marker_ba5929c20724a59ef7f0dda4082d8716.bindPopup(popup_c581368f74773be0ebd92c4f98e093a7)
+        ;
+
+        
+    
+    
+            var marker_cad552642cbff8d0a1df713a68c67ed4 = L.marker(
+                [32.481479, -117.0459649],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_e22071ed25cc66251bda0e45ff3dd688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cad552642cbff8d0a1df713a68c67ed4.setIcon(icon_e22071ed25cc66251bda0e45ff3dd688);
+        
+    
+        var popup_706707aae38e110c995f1bf7254046a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c4ba6788e435b148425e3eb4886f85a = $(`<div id="html_7c4ba6788e435b148425e3eb4886f85a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_706707aae38e110c995f1bf7254046a8.setContent(html_7c4ba6788e435b148425e3eb4886f85a);
+            
+        
+
+        marker_cad552642cbff8d0a1df713a68c67ed4.bindPopup(popup_706707aae38e110c995f1bf7254046a8)
+        ;
+
+        
+    
+    
+            var marker_742273bd8678723051f193a28d9f15af = L.marker(
+                [32.494394, -116.9315423],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_d83b24002888a0d9f68c275d5a4caec5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_742273bd8678723051f193a28d9f15af.setIcon(icon_d83b24002888a0d9f68c275d5a4caec5);
+        
+    
+        var popup_67a22a5ee8b4eda811ff42f2309777f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df373935b1e0e580d5d641418835dd5a = $(`<div id="html_df373935b1e0e580d5d641418835dd5a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_67a22a5ee8b4eda811ff42f2309777f7.setContent(html_df373935b1e0e580d5d641418835dd5a);
+            
+        
+
+        marker_742273bd8678723051f193a28d9f15af.bindPopup(popup_67a22a5ee8b4eda811ff42f2309777f7)
+        ;
+
+        
+    
+    
+            var marker_0bf9d6e49526a608c4874c8665402d24 = L.marker(
+                [32.5315726, -117.0725127],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_0efcf513c5897a10f7de6fd0a0ccb6c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0bf9d6e49526a608c4874c8665402d24.setIcon(icon_0efcf513c5897a10f7de6fd0a0ccb6c8);
+        
+    
+        var popup_4a61a4495228cb5ce6b8e739eaf962e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab1868fd90e5b643e8c060895e3c6f1b = $(`<div id="html_ab1868fd90e5b643e8c060895e3c6f1b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_4a61a4495228cb5ce6b8e739eaf962e6.setContent(html_ab1868fd90e5b643e8c060895e3c6f1b);
+            
+        
+
+        marker_0bf9d6e49526a608c4874c8665402d24.bindPopup(popup_4a61a4495228cb5ce6b8e739eaf962e6)
+        ;
+
+        
+    
+    
+            var marker_a94d369d8c4173c4fd1923903b74d666 = L.marker(
+                [32.2903112, -115.1029403],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_757968ac025473d927a8b65f067886b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a94d369d8c4173c4fd1923903b74d666.setIcon(icon_757968ac025473d927a8b65f067886b4);
+        
+    
+        var popup_0ab3722f3ad24dd18590281dce7f65f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e1474c5c0e497dfba62e84411b91c6f = $(`<div id="html_0e1474c5c0e497dfba62e84411b91c6f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_0ab3722f3ad24dd18590281dce7f65f4.setContent(html_0e1474c5c0e497dfba62e84411b91c6f);
+            
+        
+
+        marker_a94d369d8c4173c4fd1923903b74d666.bindPopup(popup_0ab3722f3ad24dd18590281dce7f65f4)
+        ;
+
+        
+    
+    
+            var marker_adce83562e2b992931e0255851dc4cdf = L.marker(
+                [32.5446282, -116.9267058],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_96b795ebef5bdda258be576619d430b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_adce83562e2b992931e0255851dc4cdf.setIcon(icon_96b795ebef5bdda258be576619d430b6);
+        
+    
+        var popup_2feedb497d2ecabef9748383b04d6f2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc3cbf4b8f34cab4c75777fa5b2066c = $(`<div id="html_efc3cbf4b8f34cab4c75777fa5b2066c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_2feedb497d2ecabef9748383b04d6f2f.setContent(html_efc3cbf4b8f34cab4c75777fa5b2066c);
+            
+        
+
+        marker_adce83562e2b992931e0255851dc4cdf.bindPopup(popup_2feedb497d2ecabef9748383b04d6f2f)
+        ;
+
+        
+    
+    
+            var marker_52c44812834b308ebaee2955082a3e7b = L.marker(
+                [32.4980295, -116.8644847],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_c7dda7964f82530ccd2d7c644f5db2e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_52c44812834b308ebaee2955082a3e7b.setIcon(icon_c7dda7964f82530ccd2d7c644f5db2e1);
+        
+    
+        var popup_344e770375d98dfb3d41fb56643dc9f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150e3f83a22599d238ec0d658f8a6f68 = $(`<div id="html_150e3f83a22599d238ec0d658f8a6f68" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_344e770375d98dfb3d41fb56643dc9f2.setContent(html_150e3f83a22599d238ec0d658f8a6f68);
+            
+        
+
+        marker_52c44812834b308ebaee2955082a3e7b.bindPopup(popup_344e770375d98dfb3d41fb56643dc9f2)
+        ;
+
+        
+    
+    
+            var marker_97fe3a490c2a51b46c68a2db5ff7fc18 = L.marker(
+                [32.4601177, -116.879965],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_cecb917b2405439858df614507280590 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97fe3a490c2a51b46c68a2db5ff7fc18.setIcon(icon_cecb917b2405439858df614507280590);
+        
+    
+        var popup_a4afcb1f9954a30ee57691915ce62d53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8c8843d8bf087ed4eb38b9d3f5eec59 = $(`<div id="html_c8c8843d8bf087ed4eb38b9d3f5eec59" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_a4afcb1f9954a30ee57691915ce62d53.setContent(html_c8c8843d8bf087ed4eb38b9d3f5eec59);
+            
+        
+
+        marker_97fe3a490c2a51b46c68a2db5ff7fc18.bindPopup(popup_a4afcb1f9954a30ee57691915ce62d53)
+        ;
+
+        
+    
+    
+            var marker_3a8410011760fa42d8f0d5dcfc301fdf = L.marker(
+                [32.618809, -115.3995545],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_2781e62c9e234abce2a3695c8614e134 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a8410011760fa42d8f0d5dcfc301fdf.setIcon(icon_2781e62c9e234abce2a3695c8614e134);
+        
+    
+        var popup_f1145d2d08767cc958f53055fb07d874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3da203ab5710c2c18ee62409c1623df = $(`<div id="html_d3da203ab5710c2c18ee62409c1623df" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_f1145d2d08767cc958f53055fb07d874.setContent(html_d3da203ab5710c2c18ee62409c1623df);
+            
+        
+
+        marker_3a8410011760fa42d8f0d5dcfc301fdf.bindPopup(popup_f1145d2d08767cc958f53055fb07d874)
+        ;
+
+        
+    
+    
+            var marker_583db7f1fb862c2d9e3133c27b523e53 = L.marker(
+                [32.3405477, -117.0560776],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_1eb01f50a58be8c9b692cfce417db723 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_583db7f1fb862c2d9e3133c27b523e53.setIcon(icon_1eb01f50a58be8c9b692cfce417db723);
+        
+    
+        var popup_14ab9d9b8cde38aeeea8d79ae37f1447 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae0b1b398f3af76114c63984712caa96 = $(`<div id="html_ae0b1b398f3af76114c63984712caa96" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_14ab9d9b8cde38aeeea8d79ae37f1447.setContent(html_ae0b1b398f3af76114c63984712caa96);
+            
+        
+
+        marker_583db7f1fb862c2d9e3133c27b523e53.bindPopup(popup_14ab9d9b8cde38aeeea8d79ae37f1447)
+        ;
+
+        
+    
+    
+            var marker_810f73c9a1bd354a715d0cf310601b47 = L.marker(
+                [32.465625, -116.8629249],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_eb9469c54e7b7a65fb3a485bea48c608 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_810f73c9a1bd354a715d0cf310601b47.setIcon(icon_eb9469c54e7b7a65fb3a485bea48c608);
+        
+    
+        var popup_ba9dca3fcff3d3aa40f5dcde98a01c5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf6e8b6c498f5e354b492f498664fa2f = $(`<div id="html_bf6e8b6c498f5e354b492f498664fa2f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_ba9dca3fcff3d3aa40f5dcde98a01c5f.setContent(html_bf6e8b6c498f5e354b492f498664fa2f);
+            
+        
+
+        marker_810f73c9a1bd354a715d0cf310601b47.bindPopup(popup_ba9dca3fcff3d3aa40f5dcde98a01c5f)
+        ;
+
+        
+    
+    
+            var marker_9ba194433d86dccb4d0b1e477934c57e = L.marker(
+                [32.6096722, -115.3872857],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_59ebbb296b6d088ce9e0da29f788ab56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9ba194433d86dccb4d0b1e477934c57e.setIcon(icon_59ebbb296b6d088ce9e0da29f788ab56);
+        
+    
+        var popup_87de588084f394c4f686d0f6e7745bc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c57583f91253b2fb7de6a977dadec16 = $(`<div id="html_2c57583f91253b2fb7de6a977dadec16" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_87de588084f394c4f686d0f6e7745bc1.setContent(html_2c57583f91253b2fb7de6a977dadec16);
+            
+        
+
+        marker_9ba194433d86dccb4d0b1e477934c57e.bindPopup(popup_87de588084f394c4f686d0f6e7745bc1)
+        ;
+
+        
+    
+    
+            var marker_15364f85324f5b647fbb0292de7e0c26 = L.marker(
+                [32.6459298, -115.5220312],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_5f7a05fe5b4249afecd3f5671f3239bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15364f85324f5b647fbb0292de7e0c26.setIcon(icon_5f7a05fe5b4249afecd3f5671f3239bc);
+        
+    
+        var popup_a366c4f3d21a28bb047497cb5d5faade = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4769f761f79b5d121449ca4d3e8b6aec = $(`<div id="html_4769f761f79b5d121449ca4d3e8b6aec" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_a366c4f3d21a28bb047497cb5d5faade.setContent(html_4769f761f79b5d121449ca4d3e8b6aec);
+            
+        
+
+        marker_15364f85324f5b647fbb0292de7e0c26.bindPopup(popup_a366c4f3d21a28bb047497cb5d5faade)
+        ;
+
+        
+    
+    
+            var marker_1e5640eb6d28b5ba2aae0775ea585024 = L.marker(
+                [32.5291971, -116.9692736],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_9a0e2a521e115516ddf0988ea91aaf33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e5640eb6d28b5ba2aae0775ea585024.setIcon(icon_9a0e2a521e115516ddf0988ea91aaf33);
+        
+    
+        var popup_022eb16aad3c9a4ac94062f41184c2af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bc2bf398d9d3816e0e668ab95330626 = $(`<div id="html_1bc2bf398d9d3816e0e668ab95330626" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_022eb16aad3c9a4ac94062f41184c2af.setContent(html_1bc2bf398d9d3816e0e668ab95330626);
+            
+        
+
+        marker_1e5640eb6d28b5ba2aae0775ea585024.bindPopup(popup_022eb16aad3c9a4ac94062f41184c2af)
+        ;
+
+        
+    
+    
+            var marker_6e57e0e8ba580fe5b05f5f7d15829bc5 = L.marker(
+                [32.521885, -116.9349694],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_117fa99587c196fd0184586d9b7f50d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e57e0e8ba580fe5b05f5f7d15829bc5.setIcon(icon_117fa99587c196fd0184586d9b7f50d3);
+        
+    
+        var popup_7a3f374a83923277878d57b53d8c1ced = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4234c2c02ff47aac7bc8f68f2f4f4cbb = $(`<div id="html_4234c2c02ff47aac7bc8f68f2f4f4cbb" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_7a3f374a83923277878d57b53d8c1ced.setContent(html_4234c2c02ff47aac7bc8f68f2f4f4cbb);
+            
+        
+
+        marker_6e57e0e8ba580fe5b05f5f7d15829bc5.bindPopup(popup_7a3f374a83923277878d57b53d8c1ced)
+        ;
+
+        
+    
+    
+            var marker_aa42f78a6a7e3888c3f3319d7a504168 = L.marker(
+                [31.8674247, -116.6256377],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_dd567406d68ba9b2ab2ee7f00530c49e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa42f78a6a7e3888c3f3319d7a504168.setIcon(icon_dd567406d68ba9b2ab2ee7f00530c49e);
+        
+    
+        var popup_903a3c929e845aec02f32bd6c77a8807 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cb19d27d3680dada60daa7fef49f733 = $(`<div id="html_9cb19d27d3680dada60daa7fef49f733" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_903a3c929e845aec02f32bd6c77a8807.setContent(html_9cb19d27d3680dada60daa7fef49f733);
+            
+        
+
+        marker_aa42f78a6a7e3888c3f3319d7a504168.bindPopup(popup_903a3c929e845aec02f32bd6c77a8807)
+        ;
+
+        
+    
+    
+            var marker_f6d9835447f1d78830e5fae45f0664fb = L.marker(
+                [32.4982295, -116.8890568],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_f8f0feeb4086acd61f52be1652546a46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f6d9835447f1d78830e5fae45f0664fb.setIcon(icon_f8f0feeb4086acd61f52be1652546a46);
+        
+    
+        var popup_506d74614a17f6a6fd3513808e5a017d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2893f96a08645f2020796850fb6391a = $(`<div id="html_a2893f96a08645f2020796850fb6391a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_506d74614a17f6a6fd3513808e5a017d.setContent(html_a2893f96a08645f2020796850fb6391a);
+            
+        
+
+        marker_f6d9835447f1d78830e5fae45f0664fb.bindPopup(popup_506d74614a17f6a6fd3513808e5a017d)
+        ;
+
+        
+    
+    
+            var marker_367fcee2b156954726dd12d2e924c8b9 = L.marker(
+                [32.5320936, -117.0352732],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_d7af94dd983fa862781cdca4de486683 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_367fcee2b156954726dd12d2e924c8b9.setIcon(icon_d7af94dd983fa862781cdca4de486683);
+        
+    
+        var popup_d14393a7e4fa96a3fdd397f21397a149 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e9591d57b4c42787056adf6aef45579 = $(`<div id="html_3e9591d57b4c42787056adf6aef45579" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_d14393a7e4fa96a3fdd397f21397a149.setContent(html_3e9591d57b4c42787056adf6aef45579);
+            
+        
+
+        marker_367fcee2b156954726dd12d2e924c8b9.bindPopup(popup_d14393a7e4fa96a3fdd397f21397a149)
+        ;
+
+        
+    
+    
+            var marker_f64019372fa0ba909f3e5f1bc8d1a3cb = L.marker(
+                [32.5031948, -116.9744108],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_c33d5f48913d6d01093833417c9ad96c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f64019372fa0ba909f3e5f1bc8d1a3cb.setIcon(icon_c33d5f48913d6d01093833417c9ad96c);
+        
+    
+        var popup_7a0180296668691579505ee559afb6cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64dee233fb747717951912a830bcd751 = $(`<div id="html_64dee233fb747717951912a830bcd751" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_7a0180296668691579505ee559afb6cb.setContent(html_64dee233fb747717951912a830bcd751);
+            
+        
+
+        marker_f64019372fa0ba909f3e5f1bc8d1a3cb.bindPopup(popup_7a0180296668691579505ee559afb6cb)
+        ;
+
+        
+    
+    
+            var marker_c8610bb9bbf6c30649fdb8f37c81d4c8 = L.marker(
+                [32.4976377, -116.9663218],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_4041e3a5babb69e6cf3ec22d1da2f797 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c8610bb9bbf6c30649fdb8f37c81d4c8.setIcon(icon_4041e3a5babb69e6cf3ec22d1da2f797);
+        
+    
+        var popup_a67f7af4e7445f72a05e079e6351a3c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e30af7d66e66b3ee6f36d83f1d25032f = $(`<div id="html_e30af7d66e66b3ee6f36d83f1d25032f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_a67f7af4e7445f72a05e079e6351a3c5.setContent(html_e30af7d66e66b3ee6f36d83f1d25032f);
+            
+        
+
+        marker_c8610bb9bbf6c30649fdb8f37c81d4c8.bindPopup(popup_a67f7af4e7445f72a05e079e6351a3c5)
+        ;
+
+        
+    
+    
+            var marker_d54e9cafe43558e89c116d83c6ad4a2b = L.marker(
+                [32.5123408, -116.8961566],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_0567d5309c9a0c96b6db376cac6bfb65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d54e9cafe43558e89c116d83c6ad4a2b.setIcon(icon_0567d5309c9a0c96b6db376cac6bfb65);
+        
+    
+        var popup_69bcfe6123fd040c835f5681986cc5d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19a5a3bd8fb85f97bedc1bb116b304b4 = $(`<div id="html_19a5a3bd8fb85f97bedc1bb116b304b4" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_69bcfe6123fd040c835f5681986cc5d4.setContent(html_19a5a3bd8fb85f97bedc1bb116b304b4);
+            
+        
+
+        marker_d54e9cafe43558e89c116d83c6ad4a2b.bindPopup(popup_69bcfe6123fd040c835f5681986cc5d4)
+        ;
+
+        
+    
+    
+            var marker_8afab5e1fd1a699fd9c4fada720a7fa1 = L.marker(
+                [32.5388984, -117.0058446],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_cbf94c31c760978642fe7085c6dc8a2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8afab5e1fd1a699fd9c4fada720a7fa1.setIcon(icon_cbf94c31c760978642fe7085c6dc8a2a);
+        
+    
+        var popup_8af53d66f49726891a73314f84463a7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00d143c5d197d9f567ff2b24aec009b = $(`<div id="html_b00d143c5d197d9f567ff2b24aec009b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_8af53d66f49726891a73314f84463a7b.setContent(html_b00d143c5d197d9f567ff2b24aec009b);
+            
+        
+
+        marker_8afab5e1fd1a699fd9c4fada720a7fa1.bindPopup(popup_8af53d66f49726891a73314f84463a7b)
+        ;
+
+        
+    
+    
+            var marker_3d799afc6f54260f65e7f05916b867b7 = L.marker(
+                [32.5937468, -115.4764326],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_8673a2374c6881629459c44bcdc32d70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d799afc6f54260f65e7f05916b867b7.setIcon(icon_8673a2374c6881629459c44bcdc32d70);
+        
+    
+        var popup_fd7383b9f3e98ba0030d64449ba4ceaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fb3eff3e256e4cac71d8681908797f2 = $(`<div id="html_4fb3eff3e256e4cac71d8681908797f2" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_fd7383b9f3e98ba0030d64449ba4ceaa.setContent(html_4fb3eff3e256e4cac71d8681908797f2);
+            
+        
+
+        marker_3d799afc6f54260f65e7f05916b867b7.bindPopup(popup_fd7383b9f3e98ba0030d64449ba4ceaa)
+        ;
+
+        
+    
+    
+            var marker_0d59b8637f545a7b15033fd144b18988 = L.marker(
+                [31.8595344, -116.6031279],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_6265551c1f87bf37c7a9096449c0073a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0d59b8637f545a7b15033fd144b18988.setIcon(icon_6265551c1f87bf37c7a9096449c0073a);
+        
+    
+        var popup_db7ef721fe4b368bac3abed88c670fa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_615ff57cd6bb90cfa51b8ab25da7a2fe = $(`<div id="html_615ff57cd6bb90cfa51b8ab25da7a2fe" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_db7ef721fe4b368bac3abed88c670fa9.setContent(html_615ff57cd6bb90cfa51b8ab25da7a2fe);
+            
+        
+
+        marker_0d59b8637f545a7b15033fd144b18988.bindPopup(popup_db7ef721fe4b368bac3abed88c670fa9)
+        ;
+
+        
+    
+    
+            var marker_46de93b6bc401ced5bc1e237f0249f1a = L.marker(
+                [32.5370326, -117.0093047],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_cead0f5c04460887a2691af2f52113d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_46de93b6bc401ced5bc1e237f0249f1a.setIcon(icon_cead0f5c04460887a2691af2f52113d6);
+        
+    
+        var popup_b894785ba06f74b2e3038c39493f9b2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b370e3605eea2cc5e0b048deffbaab17 = $(`<div id="html_b370e3605eea2cc5e0b048deffbaab17" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_b894785ba06f74b2e3038c39493f9b2b.setContent(html_b370e3605eea2cc5e0b048deffbaab17);
+            
+        
+
+        marker_46de93b6bc401ced5bc1e237f0249f1a.bindPopup(popup_b894785ba06f74b2e3038c39493f9b2b)
+        ;
+
+        
+    
+    
+            var marker_f967653d9ad4a9187a4b3b7793af7311 = L.marker(
+                [31.8591871, -116.6052862],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_9dc7a4fd97bc5a850515a9947f629580 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f967653d9ad4a9187a4b3b7793af7311.setIcon(icon_9dc7a4fd97bc5a850515a9947f629580);
+        
+    
+        var popup_10d33301b045892a144a679b029e961e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_919860de9db3365ea8d5a9b0bbacaf1d = $(`<div id="html_919860de9db3365ea8d5a9b0bbacaf1d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_10d33301b045892a144a679b029e961e.setContent(html_919860de9db3365ea8d5a9b0bbacaf1d);
+            
+        
+
+        marker_f967653d9ad4a9187a4b3b7793af7311.bindPopup(popup_10d33301b045892a144a679b029e961e)
+        ;
+
+        
+    
+    
+            var marker_ef6f6b65f52c30d728079747438f4dee = L.marker(
+                [32.3734841, -116.9411948],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_4cb9ecbb01ee28e399742d94799c1e80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef6f6b65f52c30d728079747438f4dee.setIcon(icon_4cb9ecbb01ee28e399742d94799c1e80);
+        
+    
+        var popup_e2245bc2940660f9b987714b059f72ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9193500c0c76cba9b2e718dd520f6e40 = $(`<div id="html_9193500c0c76cba9b2e718dd520f6e40" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Baja California</div>`)[0];
+                popup_e2245bc2940660f9b987714b059f72ed.setContent(html_9193500c0c76cba9b2e718dd520f6e40);
+            
+        
+
+        marker_ef6f6b65f52c30d728079747438f4dee.bindPopup(popup_e2245bc2940660f9b987714b059f72ed)
+        ;
+
+        
+    
+    
+            var marker_d721d20637f077d99c21fb5db97c69d4 = L.marker(
+                [31.8662431, -116.6221045],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_074350f680bfb02e16128f821f7c7fc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d721d20637f077d99c21fb5db97c69d4.setIcon(icon_074350f680bfb02e16128f821f7c7fc6);
+        
+    
+        var popup_4250d459812640dc2b18c88bf566f1a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c164462d571180cc1263fdb331b6d4e = $(`<div id="html_3c164462d571180cc1263fdb331b6d4e" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Baja California</div>`)[0];
+                popup_4250d459812640dc2b18c88bf566f1a0.setContent(html_3c164462d571180cc1263fdb331b6d4e);
+            
+        
+
+        marker_d721d20637f077d99c21fb5db97c69d4.bindPopup(popup_4250d459812640dc2b18c88bf566f1a0)
+        ;
+
+        
+    
+    
+            var marker_bcada68a8b27ad117f8a1a9d067790c5 = L.marker(
+                [32.6245129, -115.4216773],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_b9140faf0285a9fa889564f7480027dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bcada68a8b27ad117f8a1a9d067790c5.setIcon(icon_b9140faf0285a9fa889564f7480027dd);
+        
+    
+        var popup_372c4469fdcc10d2944770bab6720003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_289bc3de078393971e8efa3f49290433 = $(`<div id="html_289bc3de078393971e8efa3f49290433" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Baja California</div>`)[0];
+                popup_372c4469fdcc10d2944770bab6720003.setContent(html_289bc3de078393971e8efa3f49290433);
+            
+        
+
+        marker_bcada68a8b27ad117f8a1a9d067790c5.bindPopup(popup_372c4469fdcc10d2944770bab6720003)
+        ;
+
+        
+    
+    
+            var marker_d09ff6ef869920b4ac256bf4d5ba8c17 = L.marker(
+                [32.4859594, -116.9462341],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_6b2bbfd6ca6e50748854522939c75689 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d09ff6ef869920b4ac256bf4d5ba8c17.setIcon(icon_6b2bbfd6ca6e50748854522939c75689);
+        
+    
+        var popup_1251b8fc5151a366eabcaed28ee9fcb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5db401a3edd3fbe3de0298aaa799bd1c = $(`<div id="html_5db401a3edd3fbe3de0298aaa799bd1c" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Baja California</div>`)[0];
+                popup_1251b8fc5151a366eabcaed28ee9fcb8.setContent(html_5db401a3edd3fbe3de0298aaa799bd1c);
+            
+        
+
+        marker_d09ff6ef869920b4ac256bf4d5ba8c17.bindPopup(popup_1251b8fc5151a366eabcaed28ee9fcb8)
+        ;
+
+        
+    
+    
+            var marker_1d016be9d2eab5c4977109b4a5271285 = L.marker(
+                [32.5297695, -116.9512645],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_9c771829f3a12e56a58f04f1ad6fabdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1d016be9d2eab5c4977109b4a5271285.setIcon(icon_9c771829f3a12e56a58f04f1ad6fabdb);
+        
+    
+        var popup_ff242e15cf8fb3a3351fe895fd6c6206 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9553aea909aeb75b06b11d0f79d00d35 = $(`<div id="html_9553aea909aeb75b06b11d0f79d00d35" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Baja California</div>`)[0];
+                popup_ff242e15cf8fb3a3351fe895fd6c6206.setContent(html_9553aea909aeb75b06b11d0f79d00d35);
+            
+        
+
+        marker_1d016be9d2eab5c4977109b4a5271285.bindPopup(popup_ff242e15cf8fb3a3351fe895fd6c6206)
+        ;
+
+        
+    
+    
+            var marker_42eb7bdb7386953c0e819764cf261a64 = L.marker(
+                [31.8779516, -116.6232932],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_b6ae39d604a4399c984e12ddba4f9911 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42eb7bdb7386953c0e819764cf261a64.setIcon(icon_b6ae39d604a4399c984e12ddba4f9911);
+        
+    
+        var popup_857a910104c1b4b80d768350cdc43fa3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f42d709c7e5546a3b1adf06c32bc2531 = $(`<div id="html_f42d709c7e5546a3b1adf06c32bc2531" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Baja California</div>`)[0];
+                popup_857a910104c1b4b80d768350cdc43fa3.setContent(html_f42d709c7e5546a3b1adf06c32bc2531);
+            
+        
+
+        marker_42eb7bdb7386953c0e819764cf261a64.bindPopup(popup_857a910104c1b4b80d768350cdc43fa3)
+        ;
+
+        
+    
+    
+            var marker_437645ee7e120489ae37da69929e641d = L.marker(
+                [32.6570839, -115.4495698],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_79cc40f14a4545658360861900c5052c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_437645ee7e120489ae37da69929e641d.setIcon(icon_79cc40f14a4545658360861900c5052c);
+        
+    
+        var popup_c31a9bc00958679889ce8915de10766c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93dbee946b70410bd3986167ef4452eb = $(`<div id="html_93dbee946b70410bd3986167ef4452eb" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Baja California</div>`)[0];
+                popup_c31a9bc00958679889ce8915de10766c.setContent(html_93dbee946b70410bd3986167ef4452eb);
+            
+        
+
+        marker_437645ee7e120489ae37da69929e641d.bindPopup(popup_c31a9bc00958679889ce8915de10766c)
+        ;
+
+        
+    
+    
+            var marker_241fa7b1d837e6a3c77a6af7ed8c9a49 = L.marker(
+                [32.5215916, -117.027251],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_b13a5ea3eda7ba7d033891642fb76a92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_241fa7b1d837e6a3c77a6af7ed8c9a49.setIcon(icon_b13a5ea3eda7ba7d033891642fb76a92);
+        
+    
+        var popup_78e416cc66f8dbc2addcc075683da6ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e843fd31225f2e6a2663606f8bad6d2 = $(`<div id="html_8e843fd31225f2e6a2663606f8bad6d2" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Baja California</div>`)[0];
+                popup_78e416cc66f8dbc2addcc075683da6ba.setContent(html_8e843fd31225f2e6a2663606f8bad6d2);
+            
+        
+
+        marker_241fa7b1d837e6a3c77a6af7ed8c9a49.bindPopup(popup_78e416cc66f8dbc2addcc075683da6ba)
+        ;
+
+        
+    
+    
+            var marker_a0c88fdaa158f4bdd6b76872f84ced5d = L.marker(
+                [32.5149469, -117.0382471],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_f713a7f098076a4b0f74676fa821d6cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a0c88fdaa158f4bdd6b76872f84ced5d.setIcon(icon_f713a7f098076a4b0f74676fa821d6cf);
+        
+    
+        var popup_7459293203a3d066ae62a18a71cc1aac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20c17c7569670c9d30ec546c8e4061b3 = $(`<div id="html_20c17c7569670c9d30ec546c8e4061b3" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Baja California</div>`)[0];
+                popup_7459293203a3d066ae62a18a71cc1aac.setContent(html_20c17c7569670c9d30ec546c8e4061b3);
+            
+        
+
+        marker_a0c88fdaa158f4bdd6b76872f84ced5d.bindPopup(popup_7459293203a3d066ae62a18a71cc1aac)
+        ;
+
+        
+    
+    
+            var marker_fa73d0b8ed355b595ddc9ab4e88aeb27 = L.marker(
+                [32.4604388, -116.8847751],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_72c210128f7b212189200cb2c92e61d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa73d0b8ed355b595ddc9ab4e88aeb27.setIcon(icon_72c210128f7b212189200cb2c92e61d9);
+        
+    
+        var popup_ade4c0386133a03cf2602a8a08b9da30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1786ca765bcf7258a28a5b624b0ef140 = $(`<div id="html_1786ca765bcf7258a28a5b624b0ef140" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Baja California</div>`)[0];
+                popup_ade4c0386133a03cf2602a8a08b9da30.setContent(html_1786ca765bcf7258a28a5b624b0ef140);
+            
+        
+
+        marker_fa73d0b8ed355b595ddc9ab4e88aeb27.bindPopup(popup_ade4c0386133a03cf2602a8a08b9da30)
+        ;
+
+        
+    
+    
+            var marker_4628e1976908ec73e2b6898f69304e42 = L.marker(
+                [31.8779516, -116.6232932],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_76659af740bc02752c444474fa8dcff3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4628e1976908ec73e2b6898f69304e42.setIcon(icon_76659af740bc02752c444474fa8dcff3);
+        
+    
+        var popup_9e517079fadddbcb4700edb58cfb3a75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33f067b6dfcac635a931a2ea64cf571 = $(`<div id="html_b33f067b6dfcac635a931a2ea64cf571" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Baja California</div>`)[0];
+                popup_9e517079fadddbcb4700edb58cfb3a75.setContent(html_b33f067b6dfcac635a931a2ea64cf571);
+            
+        
+
+        marker_4628e1976908ec73e2b6898f69304e42.bindPopup(popup_9e517079fadddbcb4700edb58cfb3a75)
+        ;
+
+        
+    
+    
+            var marker_55faee1f5dd7eaa09935d453f1a331af = L.marker(
+                [32.6251016, -115.4265289],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_b1a03a3604068f90da159521686e9efd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_55faee1f5dd7eaa09935d453f1a331af.setIcon(icon_b1a03a3604068f90da159521686e9efd);
+        
+    
+        var popup_793894064f4daf67fed2b791940eea36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a229c9aa04b40e624b33a17dfb45c01 = $(`<div id="html_9a229c9aa04b40e624b33a17dfb45c01" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Baja California</div>`)[0];
+                popup_793894064f4daf67fed2b791940eea36.setContent(html_9a229c9aa04b40e624b33a17dfb45c01);
+            
+        
+
+        marker_55faee1f5dd7eaa09935d453f1a331af.bindPopup(popup_793894064f4daf67fed2b791940eea36)
+        ;
+
+        
+    
+    
+            var marker_aa3daf93a33512479676c7515a576324 = L.marker(
+                [32.5137089, -117.0041432],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_f4915a3a569487b0646aee4b78f4c091 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa3daf93a33512479676c7515a576324.setIcon(icon_f4915a3a569487b0646aee4b78f4c091);
+        
+    
+        var popup_2af3c63bf475c7526b11fe91556d4b40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e651ad29399bad4434a1046463688409 = $(`<div id="html_e651ad29399bad4434a1046463688409" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Baja California</div>`)[0];
+                popup_2af3c63bf475c7526b11fe91556d4b40.setContent(html_e651ad29399bad4434a1046463688409);
+            
+        
+
+        marker_aa3daf93a33512479676c7515a576324.bindPopup(popup_2af3c63bf475c7526b11fe91556d4b40)
+        ;
+
+        
+    
+    
+            var marker_c5e2a487eb61acbf54a7064f2a07cc43 = L.marker(
+                [32.41618534, -116.4992714],
+                {
+}
+            ).addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+    
+            var icon_22306985b3ae02fd2ea7a8bf52edc079 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c5e2a487eb61acbf54a7064f2a07cc43.setIcon(icon_22306985b3ae02fd2ea7a8bf52edc079);
+        
+    
+        var popup_e9a10c6db3d998899a6d63a22139ff5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24252afd04d6903d8a78d8cda8af9033 = $(`<div id="html_24252afd04d6903d8a78d8cda8af9033" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Baja California</div>`)[0];
+                popup_e9a10c6db3d998899a6d63a22139ff5c.setContent(html_24252afd04d6903d8a78d8cda8af9033);
+            
+        
+
+        marker_c5e2a487eb61acbf54a7064f2a07cc43.bindPopup(popup_e9a10c6db3d998899a6d63a22139ff5c)
+        ;
+
+        
+    
+    
+            tile_layer_7c972d8bed8a55bb9529e44ba474280e.addTo(map_855e0f69dbad0a80ed247c98a08e2745);
+        
+</script>
+</html>
